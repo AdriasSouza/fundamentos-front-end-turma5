@@ -4,12 +4,20 @@
 <head>
     <meta charset="utf-8">
     <title>Profisionais</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
 </head>
 
 <body>
     <header>
-        <img src="logo_azul(64).png" alt="Logo do SGCM">
-        <p>SGCM</p>
+        <div class="logo">
+            <img src="logo_azul(64).png" alt="Logo do SGCM">
+            <span>SGCM</span>
+            <div class="usuario">
+                <span>Usuário: Administrador</span>
+                <span>Papel: ADMIN</span>
+            </div>
+        </div>
+
     </header>
     <nav>
         <ul>
@@ -25,19 +33,19 @@
     </nav>
     <main>
         <form action="">
-            <label for="nomeProfissional">Nome:</label>
+            <label for="nomeProfissional">Nome</label>
             <input type="text" name="nome" id="nomeProfissional">
             <br>
-            <label for="registroConselho">Registro Conselho:</label>
+            <label for="registroConselho">Registro Conselho</label>
             <input type="text" name="registro" id="registroConselho">
             <br>
-            <label for="telefone">Telefone:</label>
+            <label for="telefone">Telefone</label>
             <input type="tel" name="telefone" id="telefone">
             <br>
             <label for="email">Email</label>
             <input type="email" name="email" id="email">
             <br>
-            <label for="unidade">Unidade:</label>
+            <label for="unidade">Unidade</label>
             <select name="unidade" id="unidade">
                 <option value=""></option>
                 <option value="1">Pronto Atendimento</option>
@@ -83,7 +91,9 @@
                     <td>x</td>
                     <td>x</td>
                     <td>x</td>
-                    <td><a href="javascript:void(0)">Editar</a> | <a href="javascript:void(0)">Excluir</a></td>
+                    <td><a class="botao" href="javascript:void(0)">Editar</a> <a id="excluir" class="botao"
+                            href="javascript:void(0)">Excluir</a>
+                    </td>
                 </tr>
                 <tr>
                     <td>2</td>
@@ -93,7 +103,8 @@
                     <td>x</td>
                     <td>x</td>
                     <td>x</td>
-                    <td><a href="javascript:void(0)">Editar</a> | <a href="javascript:void(0)">Excluir</a></td>
+                    <td><a class="botao" href="javascript:void(0)">Editar</a> <a id="excluir" class="botao"
+                            href="javascript:void(0)">Excluir</a></td>
                 </tr>
                 <tr>
                     <td>3</td>
@@ -103,7 +114,8 @@
                     <td>x</td>
                     <td>x</td>
                     <td>x</td>
-                    <td><a href="javascript:void(0)">Editar</a> | <a href="javascript:void(0)">Excluir</a></td>
+                    <td><a class="botao" href="javascript:void(0)">Editar</a> <a id="excluir" class="botao"
+                            href="javascript:void(0)">Excluir</a></td>
                 </tr>
                 <tr>
                     <td>4</td>
@@ -113,7 +125,8 @@
                     <td>x</td>
                     <td>x</td>
                     <td>x</td>
-                    <td><a href="javascript:void(0)">Editar</a> | <a href="javascript:void(0)">Excluir</a></td>
+                    <td><a class="botao" href="javascript:void(0)">Editar</a> <a id="excluir" class="botao"
+                            href="javascript:void(0)">Excluir</a></td>
                 </tr>
                 <tr>
                     <td>5</td>
@@ -123,7 +136,8 @@
                     <td>x</td>
                     <td>x</td>
                     <td>x</td>
-                    <td><a href="javascript:void(0)">Editar</a> | <a href="javascript:void(0)">Excluir</a></td>
+                    <td><a class="botao" href="javascript:void(0)">Editar</a> <a id="excluir" class="botao"
+                            href="javascript:void(0)">Excluir</a></td>
                 </tr>
 
             </tbody>
