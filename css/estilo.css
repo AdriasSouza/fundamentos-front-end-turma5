@@ -5,8 +5,11 @@ body {
 }
 
 /* Cabeçalho */
-div.logo {
+header {
     background: linear-gradient(#003366, #006699);
+}
+
+div.logo {
     font-size: 2em;
     color: white;
     font-weight: bold;
@@ -103,6 +106,14 @@ nav ul li a:hover {
 
 /* Form */
 
+form.inativo {
+    display: none;
+}
+
+a.botao#add.inativo {
+    display: none;
+}
+
 form label::after {
     content: ":";
 }
@@ -170,6 +181,11 @@ table tbody tr:hover {
 table tbody tr td:last-child {
     white-space: nowrap;
     width: 5%;
+}
+
+/* Tarefa 04 */
+table td:nth-child(2) {
+    white-space: nowrap;
 }
 
 /* Rodapé */
