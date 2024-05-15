@@ -5,8 +5,11 @@ body {
 }
 
 /* Cabeçalho */
-div.logo {
+header {
     background: linear-gradient(#003366, #006699);
+}
+
+div.logo {
     font-size: 2em;
     color: white;
     font-weight: bold;
