@@ -54,11 +54,12 @@ A demonstração de uso das ferramentas e tecnologias abordadas na capacitação
 
     - Dados no formato JSON para serem usados nas páginas:
 
-        - Usuários: <https://my-json-server.typicode.com/danielnsilva/json2/usuarios>
-        - Convênios: <https://my-json-server.typicode.com/danielnsilva/json/convenios>
-        - Unidades: <https://my-json-server.typicode.com/danielnsilva/json/unidades>
-        - Especialidades: <https://my-json-server.typicode.com/danielnsilva/json/especialidades>
-        - Pacientes: <https://my-json-server.typicode.com/danielnsilva/json/pacientes>
+        - Usuários: <https://my-json-server.typicode.com/juniorlimeiras/json2/usuarios>
+        - Usuários: <https://my-json-server.typicode.com/juniorlimeiras/json2/atendimentos>
+        - Convênios: <https://my-json-server.typicode.com/juniorlimeiras/json/convenios>
+        - Unidades: <https://my-json-server.typicode.com/juniorlimeiras/json/unidades>
+        - Especialidades: <https://my-json-server.typicode.com/juniorlimeiras/json/especialidades>
+        - Pacientes: <https://my-json-server.typicode.com/juniorlimeiras/json/pacientes>
 
 2. [INDIVIDUAL] Alterar a forma como o usuário visualiza o botão Adicionar. (Entrega: 22/05/2024)
     - O botão Adicionar não deve ser visualizado após ser clicado, mas somente quando o usuário clicar nos botões Enviar ou Cancelar.
@@ -67,7 +68,7 @@ A demonstração de uso das ferramentas e tecnologias abordadas na capacitação
     - A atualização deve considerar todos os registros.
 
 4. [INDIVIDUAL] Alterar o comportamento da coluna 'nome' da tabela de profissionais. (Entrega: 22/05/2024)
-    - A coluna nome deve ter o mesmo comportamento da coluna Ações.
+    - A coluna 'nome' deve ter o mesmo comportamento da coluna Ações.
 
   
 > **IMPORTANTE:**
